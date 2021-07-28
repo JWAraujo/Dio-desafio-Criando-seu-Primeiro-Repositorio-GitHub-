@@ -1,0 +1,97 @@
+git
+2005
+versionamento de cod distribuido
+Linus Torvalds
+software de versionamento de codigo
+opensource
+
+github - microsoft
+repositorio online
+
+controle de versão
+armazenamento em nuvem
+trabalho em equipe
+melhorar o seu código
+reconhecimento
+
+comandos basicos
+
+cmd - abre o terminal
+dir - lista de diretórios da pasta atual
+cd - change direct - navega entre as pastas (ex. cd / - navegar para um local especifico - cd windows entra na pasta windows)
+cd.. - retrocede um nível na navegação
+cls - limpa a tela
+tecla TAB - completa o nome da pasta (atalho útil)
+mkdir - criar uma pasta - criar um diretório (ex. mkdir workspace - criamos a pasta worspace)
+echo - printa de volta no terminal fraso ou texto
+	echo > (o sinal de maior ">" é um redirecionar de fluxo) ex. echo hello > hello.txt (cria um arquivo
+del - deleta ex. del workspace ) delata arquivo mas não deleta pasta/diretório
+"seta para cima" - navega por todo histórico de comando digitado (atalho)
+rmdir - remove directory (ex. rmdir workspace /s q/)
+	remove todo o diretorio com os arquivos
+
+GIT  sistema distribuido e seguro
+
+sha1 - codificação de um arquivo trazendo uma chave com 40 caracteres
+
+Objetos:
+BLOBS - contem metadados do GIT - tipo, tamanho, sha1 do arquivo
+
+TREES - contem blobs - metadados e nome do arquivo
+
+COMMITS - (objeto mais completo)aponta para uma tree, parente, autor, mensagem e timestamp
+
+Iniciando o Git e criando um commit
+
+-git init
+	iniciar o repositório do Git
+
+-git add
+	mover arquivos, dar inicio ao versonamento e conhecer os primeiros comandos
+
+-git commit
+	criar o primeiro arquivo
+
+
+
+todo comando do git leva a palavra giut no inicio
+
+comando do git
+ls - lista todas as pastas
+cd + pasta - entra no arquivo
+ctrl + l - limpa a tela
+mkdir - cria uma pasta
+
+flag "-a" mostra pastas ocultas
+
+Ciclo de Vida do repositório
+Repositório Local acomada commits's
+
+git status - mostra a status do repositório
+
+mv - move os arquivos
+	./ - comando para a pasta atual
+
+git add nomeArquivo
+git add * 
+git add. - com asterisco - pega tudo que foi modificado e que está na minha working directory e envia para staging para podermos commitar
+
+
+Ambiente de Desenvolvimento
+WORKING DIRECTORY -> STAGING AREA -> LOCAL REPOSITORY
+
+Servidor
+REMOTE REPOSITORY
+
+https://github.com/JWAraujo/Livro-Receitas.git
+
+
+
+
+
+
+	
+		
+
+
+
